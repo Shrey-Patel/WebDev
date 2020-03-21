@@ -1,0 +1,48 @@
+CSS Cheat Sheet
+
+Reference:
+	*https://www.w3schools.com/cssref/css_selectors.asp		-- *
+	*https://css-tricks.com/almanac/						--CSS3
+	*https://developer.mozilla.org/en-US/					-- *
+	*https://caniuse.com/  									--CSS3
+
+Flexbox Cheat sheet:
+	*https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background
+	*https://darekkay.com/dev/flexbox-cheatsheet.html
+
+Paletton Color picker:
+	*http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+Fonts:
+	*https://fonts.google.com/
+
+Image:
+	*https://unsplash.com/
+
+Cascade and Inheritance:
+	*https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Cascade_and_inheritance
+
+CSS Transitions and Transforms for Beginners:
+	*https://robots.thoughtbot.com/transitions-and-transforms
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+.class
+#id
+*
+element
+element, element
+element element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+	*https://specificity.keegan.st/
+-Importance
+-Source Order
