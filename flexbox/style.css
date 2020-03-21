@@ -1,0 +1,41 @@
+body {
+	margin: 0px;
+}
+
+html {
+	background-image: url(background1.jpg);
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Eater', cursive;
+	font-size: 3em;
+	border-bottom: 2px solid blue;
+	border-right: 2px solid blue;
+	width: 600px;
+	text-align: center;
+	background-color: rgba(0, 255, 0, 0.2);
+	-moz-box-shadow: 4px 4px 5px #800000;
+	-ms-box-shadow: 4px 4px 5px #800000;
+	-webkit-box-shadow: 4px 4px 5px #800000;
+	-o-box-shadow: 4px 4px 5px #800000;
+	box-shadow: 4px 4px 5px #800000;
+	margin: 0px;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
